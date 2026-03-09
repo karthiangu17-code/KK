@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karthikeyan & Kamalavarthini Wedding</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Background and global styles */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fdfbf7; 
+      color: #5a4a4a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* The Main Card Container */
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #f2dfdf;
+      border-radius: 15px;
+      padding: 40px 20px;
+      margin: 40px 20px;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    }
+
+    /* Love / Heart Icon Style */
+    .top-icon {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 15px;
+    }
+
+    /* Top Invitation Text */
+    .invite-text {
+      font-size: 0.85rem;
+      font-style: italic;
+      color: #7d7d7d;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    /* Names */
+    .name {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5rem;
+      color: #9c3232; 
+      margin: 0;
+      font-weight: normal;
+    }
+
+    .ampersand {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      color: #9c3232;
+      margin: -10px 0;
+    }
+
+    /* Date and Venue */
+    .date {
+      color: #9c3232;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 25px 0 10px;
+    }
+
+    .venue {
+      font-size: 0.85rem;
+      color: #665b5b;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    /* Countdown Timer */
+    .countdown-container {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .time-box {
+      background-color: #fcf6f3;
+      border: 1px solid #f0d8d8;
+      border-radius: 8px;
+      padding: 10px 15px;
+      min-width: 55px;
+      color: #9c3232;
+    }
+
+    .time-box span {
+      display: block;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .time-box small {
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+
+    /* Buttons */
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+
+    .btn-download {
+      background-color: #ffffff;
+      color: #9c3232;
+      border: 1px solid #9c3232;
+    }
+
+    .btn-download:hover {
+      background-color: #fcf6f3;
+    }
+
+    .btn-rsvp {
+      background-color: #9c3232;
+      color: #ffffff;
+      border: 1px solid #9c3232;
+    }
+
+    .btn-rsvp:hover {
+      background-color: #7a2525;
+    }
+
+    /* Bottom Section */
+    .bottom-section {
+      text-align: center;
+      padding: 0 20px 40px;
+      max-width: 600px;
+    }
+
+    .bottom-section h2 {
+      font-family: 'Great Vibes', cursive;
+      color: #9c3232;
+      font-size: 2.8rem;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    .bottom-section p {
+      font-size: 0.85rem;
+      color: #665b5b;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      width: 100%;
+      background-color: #fcf6f3;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #9c3232;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    
+    <svg class="top-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#9c3232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+    </svg>
+    
+    <div class="invite-text">cordially invite you to the wedding<br>of their daughter</div>
+    
+    <h1 class="name">Karthikeyan</h1>
+    <div class="ampersand">&</div>
+    <h1 class="name">Kamalavarthini</h1>
+    
+    <div class="date">Friday 16 January 2031</div>
+    <div class="venue">Maharaja mahal, Pudukkottai road<br>Thanjavur</div>
+
+    <div class="countdown-container">
+      <div class="time-box">
+        <span id="days">0</span>
+        <small>Days</small>
+      </div>
+      <div class="time-box">
+        <span id="hours">0</span>
+        <small>Hours</small>
+      </div>
+      <div class="time-box">
+        <span id="minutes">0</span>
+        <small>Minutes</small>
+      </div>
+      <div class="time-box">
+        <span id="seconds">0</span>
+        <small>Seconds</small>
+      </div>
+    </div>
+
+    <div class="button-group">
+      <a href="KK.png" download="Karthikeyan_Kamalavarthini_Invitation.png" class="btn btn-download">
+         Download Invitation
+      </a>
+      <a href="#rsvp" class="btn btn-rsvp">RSVP Now</a>
+    </div>
+  </div>
+
+  <div class="bottom-section" id="rsvp">
+    <h2>Join Our Celebration</h2>
+    <p>We invite you to share in our joy as we begin our new life together. Your presence and blessings will make our day truly special.</p>
+  </div>
+
+  <footer>
+    © 2031 Karthikeyan & Kamalavarthini Wedding
+  </footer>
+
+  <script>
+    const countDownDate = new Date("Jan 16, 2031 09:00:00").getTime();
+
+    const x = setInterval(function() {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.querySelector('.countdown-container').innerHTML = "<h3 style='color: #9c3232;'>Happily Married! </h3>";
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>
